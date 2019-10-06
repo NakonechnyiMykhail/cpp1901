@@ -1,0 +1,9 @@
+bool = true / false
+char = 'a' / 'F' / unicode / ASCII / '0x32'
+short = 1/5/10
+int = 4/ 2/
+long int = 2/100
+float = 2.0
+double = 10e123
+string = "text is here"
+
