@@ -24,4 +24,4 @@
 g++ -c main.cpp calc.cpp print.cpp getInputNumber.cpp
 
 Далее объединяем файлы в программу следующей командой
-g++ -o main.o calc.o print.o getInputNumber.o
+g++ -o app main.o calc.o print.o getInputNumber.o
