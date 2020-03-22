@@ -52,5 +52,12 @@ int main()
     for (auto const &element : vec)
         std::cout << element << ' ';
     std::cout << std::endl;
+
+    for(int i=0; i< 5; i++)
+        addElementToVector(vec);
+
+    for (auto const &element : vec)
+        std::cout << element << ' ';
+    std::cout << std::endl;
     return 0;
 }
