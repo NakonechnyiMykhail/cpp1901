@@ -38,7 +38,13 @@ int main()
 
     delete ptr2;
     // cout << *ptr2 << endl; ---
-    ptr2 = nullptr;
+    ptr2 = nullptr; // 0
+
+    int *ptr3 = new (std::nothrow) int;
+    if (!ptr3)
+    {
+        std::cout << "Could not allocate memory\n";
+    }
 
     return 0;
 }

@@ -2,12 +2,12 @@
 
 enum Colors
 {
-    COLOR_RED,
+    COLOR_RED, //  = 1
     COLOR_BROWN,
     COLOR_WHITE,
 };
 
-enum Animals
+enum Animals // XXXXXXXXXX
 {
     ANIMAL_COW = -3,
     ANIMAL_DOG,
