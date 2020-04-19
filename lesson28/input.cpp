@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cstdint>
+#include <cstdint> // std::int16_t
 #include <limits>
 
 double getValue()
