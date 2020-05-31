@@ -21,12 +21,17 @@ class DateClass
     int m_month;
     int m_year;
 
+    // void print();
     void print()
     {
         std::cout << m_day << "/" << m_month << "/" << m_year << std::endl;
     }
 };
 
+    // void DateClass::print()
+    // {
+    //     std::cout << m_day << "/" << m_month << "/" << m_year << std::endl;
+    // }
 
 // ====================================================================================
 
